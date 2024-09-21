@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title> Buttons </title>
+        
+    </head>
+    <body>
+        <style>
+            .facebook-button{
+                background-color:blueviolet;
+                color:white;
+                padding: 10px 20px;
+                font-size: 1em;
+                border-radius: 15px;
+                margin-right: 15px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               transition: box-shadow 0.15s;
+               vertical-align: top;
+            }
+            .facebook-button:hover{
+                box-shadow: 5px 5px 10px rgba(52, 51, 51);
+                background-color: blue;
+                cursor:pointer;
+            }
+            .twitter-button{
+                padding:10px 25px;
+                font-size: 1.1em;
+                background-color: white;
+                border-radius: 5px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                transition: background-color 0.15s , color 0.15s;
+                margin-right: 15px;
+                vertical-align: top;
+            }
+            .twitter-button:hover{
+                background-color: black;
+                color:white;
+                cursor: pointer;
+            }
+            .subscribe-button{
+                padding: 10px 20px;
+                font-size: 1em;
+                background-color: red;
+                color: white;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                transition: background-color 0.15s;
+                vertical-align: top;
+            }
+            .subscribe-button:hover{
+                cursor: pointer;
+                background-color: rgb(235, 9, 9);
+            }
+            .pagination-div{
+                padding:10px;
+            }
+            .pagination-div > button{
+                padding:10px 10px 10px 10px;
+            }
+            [class|='pagination']{
+                background-color: transparent;
+                border-radius: 10px;
+            }
+            [class|='page']{
+                margin-left: 7px;
+                color: black;
+                text-decoration-color: blue;
+            }
+            .page-5{
+                margin-right: 10px;
+            }
+            .stretch-button{
+                background-color: green;
+                color: white;
+                padding: 10px 20px 10px 20px;
+                transition: padding 1s , font-size 1s;
+            }
+            .stretch-button:hover{
+                padding: 40px 40px 40px 40px;
+                font-size: 1.5em;
+                cursor: pointer;
+            }
+        </style>
+        <button class="facebook-button"> Facebook </button>
+        <button class="twitter-button">Twitter</button>
+        <button class="subscribe-button">SUBSCRIBE</button>
+        <br>
+        <div class="pagination-div">
+            <button class="pagination-backBtn">Back</button>
+            <a href="#" class="page-1">1</a>
+            <a href="#" class="page-2">2</a>
+            <a href="#" class="page-3">3</a>
+            <a href="#" class="page-4">4</a>
+            <a href="#" class="page-5">5</a>
+         
+            <button class="pagination-nextBtn">Next</button>
+        </div>
+        <br>
+        <div class="stretch-div">
+            <button class="stretch-button">Stretch</button>
+        </div>
+
+    </body>
+</html>

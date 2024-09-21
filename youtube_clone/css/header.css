@@ -1,0 +1,98 @@
+.flex-navigator{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    border-bottom: 1px solid rgb(196, 193, 193);
+    box-shadow: 1px 0.9px 0.15px rgba(0, 0, 0, 0.15);
+}
+.left-section{
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+}
+.left-section img{
+    padding-right: 40px;
+}
+.middle-section{
+  
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width:500px;
+    align-items: center;
+   
+}
+.img-search{
+    border-radius: 50%;
+    width:30px;
+}
+.img-microphone{
+    border-radius: 50%;
+    width:30px;
+    padding: 2px 2px 2px 2px;
+    margin-left: 30px;
+}
+.btn-search{
+    margin-left: -52px;
+    padding: 11px 20px;
+    border-radius: 8px 50px 40px 0;
+}
+
+.search-box{
+    min-width: 0;
+    width:100%;
+    height: 54px;
+    border-radius: 40px;
+}
+.search-box::placeholder{
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+.img-notification{
+    padding-right: 30px;
+    height: 30px;
+}
+.img-user-icon{
+    width:50px;
+    border-radius: 50%;
+}
+
+/* LEFT NAV */
+
+.flex-left-navigator{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    top:100px;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    border-right: 1px solid rgb(196, 193, 193);
+    box-shadow: 1px 0.9px 0.15px rgba(0, 0, 0, 0.15);
+}
+.flex-left-navigator > div {
+   padding-bottom: 30px;
+}
+.image-div{
+   display: flex;
+   justify-content: center; 
+}
+.flex-left-navigator > div p{
+    margin-top: 0;
+    font-size: .8em;
+    text-align: center;
+}
